@@ -1,0 +1,14 @@
+:root {
+    --body-bg: #fafafa;
+    --body-color: #222;
+}
+
+.modo-escuro:root {
+    --body-bg: #181a1b;
+    --body-color: rgb(153, 151, 151);
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--body-color);
+}
